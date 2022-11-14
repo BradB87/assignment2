@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <title>Contact</title>
+
+</head>
+<header>
+    <nav>
+        <ul>
+
+            <a href="./index.html">Home</a><br>
+            <a href="./about.html">About</a><br>
+            <a href="./contact.html">Contact</a><br>
+
+
+
+        </ul>
+    </nav>
+</header>
+
+<h1> Email or fill out information</h1>
+<p> Get ahold of me by either by email or fill out form below</p>
+<div>
+    <nav>
+        <a class="email" href="mailto:bradbuttineau_23@hotmail.com?" subject="subject text">Email:bradbuttineau_23@hotmail.com</a>
+
+    </nav>
+</div>
+
+<form action=".//thanks.html" method="post" name="my-subscription-form" netlify>
+    <fieldset>
+        <legend>Info:</legend>
+
+        <div>
+            <label for="firstName">First Name:</label><br>
+            <input type="text" name="firstName" id="firstName" placeholder="John" required>
+        </div>
+
+        <div>
+            <label for="lastName">Last Name:</label><br>
+
+            <input type="text" name="lastName" id="lastName" placeholder="Smith" required>
+        </div>
+
+        <div>
+            <label for="phone">Phone:</label><br>
+            <input type="tel" name="phone" id="phone" placeholder="1 (555) 555-5555">
+        </div>
+
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" placeholder="personal_email@hotmail.com" required>
+        </div>
+
+    </fieldset>
+
+    <fieldset>
+
+        <div>
+            <label for="url">Website:</label><br>
+            <input type="url" name="url" id="url" placeholder="https://www.toinfinityandbeyond.com">
+        </div>
+    </fieldset>
+    <div>
+        <input type="submit" value="Submit"></input>
+    </div>
+</form>
+
+</html>

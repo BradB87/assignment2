@@ -1,0 +1,59 @@
+@import url(../about.html);
+html{
+    background-image: url("../images/igor-karimov-9AmKnNZw3GA-unsplash.jpg");
+    
+
+}
+h1,h2{
+    color: gold;
+    font-family: Impact;
+    background-color: black;
+    
+}
+p{
+    color: whitesmoke;
+    font-style: bold;
+    font-weight: 900;
+    
+    
+   
+}
+
+header{
+    background-color: black;
+    
+    
+}
+.menu{
+    justify-content: space-around;
+    text-align: center;
+    display: flex;    
+}
+.p2{
+    background-color: black;
+    color: red;
+}
+    
+
+.p1{
+    color: white;
+    background-color: black;
+    color: blue;
+    
+    
+}
+a{
+    color: black;
+    font-size: 1em;
+    font-weight: 800;
+    flex-wrap: wrap;
+}
+header{
+    background-image:url(../images/gradienta-bKESVqfxass-unsplash.jpg);
+    height: 2em;
+    display: flexbox;
+}
+
+ 
+
+    

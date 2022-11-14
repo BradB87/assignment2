@@ -1,0 +1,99 @@
+@import url(./reset.css/);
+html{
+        background-image: url(../images/carl-raw-m3hn2Kn5Bns-unsplash.jpg)
+    
+    }           
+
+img{
+    float: inherit;
+    padding: 2em;
+}
+
+ li{
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.5em;
+    display: flex;
+}
+ 
+
+
+h1,h2{
+    color:gold;
+    padding: 1.5em;
+    font-size: 2em;
+    text-align: left;
+   font-family: Impact;
+   display: flex;
+   background-color: black;
+
+   
+   
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Fasthand', cursive;
+    color: gold;
+    display: flex;
+
+
+    
+}
+.p1{
+    color:blue;
+    background-color: black;
+}
+.p2{
+    color: green;
+    background-color: black;
+}
+.p3{
+    color:red;
+    background-color: black;
+}   
+.list{
+    color: blue;
+    background-color: black;
+}  
+    
+    
+
+
+li{
+    color: gold;
+font-size: 1em;
+font-family: 'Fasthand', cursive;
+display: flexbox;
+}
+nav>ul{
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    
+    
+}
+header{
+    background-image:url(../images/gradienta-bKESVqfxass-unsplash.jpg);
+    height: 3em;
+    display: flexbox;
+    
+    
+    
+    
+}
+a{
+    font-size: 1em;
+    color: black;
+    font-weight: 800;
+    flex-wrap: wrap;
+    
+}
+.img{
+    border: 0px;
+    
+    
+}
+
+    
+    
+
