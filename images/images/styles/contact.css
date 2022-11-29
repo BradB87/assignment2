@@ -1,0 +1,14 @@
+@import url(./reset.css/);
+html{
+    background-image: url(../images/leandra-rieger-XlsvjaeO8zA-unsplash.jpg);
+    
+}
+h1, form{
+    color: #007;
+    padding: 2em;
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div{
+    padding: 0.5em;
+}
