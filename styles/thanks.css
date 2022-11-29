@@ -13,13 +13,40 @@ h1{
     text-shadow: 0.1em;
     justify-content: center;
     flex-direction: column;
+    border: dotted;
+    padding-top: 1em;
+    text-decoration: underline;
+    display: flex;
+    border-bottom:  2em;
 }
 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-    color:gold;
+    color:#ee5253;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     justify-content: center;
     flex-direction: column;
-}    
+    border: 1px dotted;
+    display: flex;
+} 
+
+.img1{
+    height:  500px;
+    width:  500px;
+    flex-direction:inherit;
+    float: center;
+    display: flex;
+    
+    
+}
+nav{
+    text-align: center;
+    color: black;
+    background-color: black;
+    margin:auto ;
+    width:max-content; 
+     padding:2px 20px;
+     font-size: large;
+     display: flex;
+}

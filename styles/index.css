@@ -5,8 +5,10 @@ html{
     }           
 
 img{
-    float: inherit;
-    padding: 2em;
+    float:initial;
+    padding: 1em;
+    padding-left: 30em;
+    
 }
 
  li{
@@ -20,12 +22,16 @@ img{
 
 h1,h2{
     color:gold;
-    padding: 1.5em;
+    
     font-size: 2em;
     text-align: left;
    font-family: Impact;
    display: flex;
    background-color: black;
+   text-decoration: underline;
+  margin:auto ;
+   width:max-content; 
+    padding: 8px 20px;
 
    
    
@@ -42,18 +48,34 @@ p{
 .p1{
     color:blue;
     background-color: black;
+    margin:auto ;
+   width:max-content; 
+    padding:2px 20px;
+
 }
 .p2{
     color: green;
     background-color: black;
+    margin:auto ;
+   width:max-content; 
+    padding:2px 20px;
+
 }
 .p3{
     color:red;
     background-color: black;
+    margin:auto ;
+    width:max-content; 
+    padding:2px 20px;
+
 }   
 .list{
     color: blue;
     background-color: black;
+    margin:auto ;
+   width:max-content; 
+    padding:2px 20px;
+
 }  
     
     
@@ -74,7 +96,7 @@ nav>ul{
 }
 header{
     background-image:url(../images/gradienta-bKESVqfxass-unsplash.jpg);
-    height: 3em;
+    height: 2em;
     display: flexbox;
     
     
@@ -94,6 +116,11 @@ a{
     
 }
 
-    
+*:before h1,
+*:after h2 {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}  
     
 

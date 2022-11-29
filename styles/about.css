@@ -6,8 +6,12 @@ html{
 }
 h1,h2{
     color: gold;
-    font-family: Impact;
+    font-family: Impact;font-size: 2em;
     background-color: black;
+    margin:auto ;
+   width:max-content; 
+    padding:2px 20px;
+
     
 }
 p{
@@ -46,7 +50,14 @@ a{
     color: black;
     font-size: 1em;
     font-weight: 800;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
+}
+li{
+    margin:auto ;
+   width:max-content; 
+    padding: 1px 19px;
+    border:  2px ;
+
 }
 header{
     background-image:url(../images/gradienta-bKESVqfxass-unsplash.jpg);
@@ -54,6 +65,10 @@ header{
     display: flexbox;
 }
 
- 
-
+*:before h1,
+*:after h1 {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}  
     
