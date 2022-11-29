@@ -1,52 +1,24 @@
 @import url(./reset.css/);
 html {
-        background-image: url("../images/ivan-rudoy-H1CzGhDhSAY-unsplash.jpg");
+        background-image: url("../images/igor-karimov-9AmKnNZw3GA-unsplash.jpg");
         
            
    
        }
 h1{
-    font-family: Impact;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3em;
     text-align: center;
     color: gold;
     text-shadow: 0.1em;
     justify-content: center;
     flex-direction: column;
-    border: dotted;
-    padding-top: 1em;
-    text-decoration: underline;
-    display: flex;
-    border-bottom:  2em;
 }
 p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-    color:#ee5253;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:gold;
     text-align: center;
-    font-size: 2em;
+    font-size: 01.5em;
     justify-content: center;
     flex-direction: column;
-    border: 1px dotted;
-    display: flex;
-} 
-
-.img1{
-    height:  500px;
-    width:  500px;
-    flex-direction:inherit;
-    float: center;
-    display: flex;
-    
-    
-}
-nav{
-    text-align: center;
-    color: black;
-    background-color: black;
-    margin:auto ;
-    width:max-content; 
-     padding:2px 20px;
-     font-size: large;
-     display: flex;
-}
+}    

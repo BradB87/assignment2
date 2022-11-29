@@ -1,126 +1,25 @@
 @import url(./reset.css/);
 html{
-        background-image: url(../images/carl-raw-m3hn2Kn5Bns-unsplash.jpg)
-    
-    }           
-
-img{
-    float:initial;
-    padding: 1em;
-    padding-left: 30em;
-    
+        background-image: url("../images/carl-raw-m3hn2Kn5Bns-unsplash.jpg");
+           
+   
 }
-
- li{
-    margin: 10px;
-    padding: 20px;
-    font-size: 1.5em;
-    display: flex;
-}
- 
-
-
-h1,h2{
+h1, h2{
     color:gold;
-    
-    font-size: 2em;
+    padding: 1.5em;
+    font-size: 1.5em;
     text-align: left;
-   font-family: Impact;
-   display: flex;
-   background-color: black;
-   text-decoration: underline;
-  margin:auto ;
-   width:max-content; 
-    padding: 8px 20px;
-
-   
-   
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-family: 'Fasthand', cursive;
-    color: gold;
-    display: flex;
-
-
-    
+    color: lightblue;
 }
-.p1{
-    color:blue;
-    background-color: black;
-    margin:auto ;
-   width:max-content; 
-    padding:2px 20px;
-
+section>p{
+    color: burlywood;
 }
-.p2{
-    color: green;
-    background-color: black;
-    margin:auto ;
-   width:max-content; 
-    padding:2px 20px;
-
-}
-.p3{
-    color:red;
-    background-color: black;
-    margin:auto ;
-    width:max-content; 
-    padding:2px 20px;
-
-}   
-.list{
-    color: blue;
-    background-color: black;
-    margin:auto ;
-   width:max-content; 
-    padding:2px 20px;
-
-}  
-    
-    
-
-
 li{
-    color: gold;
+    color: burlywood;
 font-size: 1em;
 font-family: 'Fasthand', cursive;
-display: flexbox;
 }
-nav>ul{
-    justify-content: space-around;
-    display: flex;
-    text-align: center;
-    
-    
-}
-header{
-    background-image:url(../images/gradienta-bKESVqfxass-unsplash.jpg);
-    height: 2em;
-    display: flexbox;
-    
-    
-    
-    
-}
-a{
-    font-size: 1em;
-    color: black;
-    font-weight: 800;
-    flex-wrap: wrap;
-    
-}
-.img{
-    border: 0px;
-    
-    
-}
-
-*:before h1,
-*:after h2 {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
-}  
-    
-
